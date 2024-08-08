@@ -1,0 +1,21 @@
+.navbar{
+    padding-top: 20px;
+    padding-bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar .logo{
+    width: 400px;
+    height: 100px;
+    padding-left: 0;
+}
+
+.navbar-menu {
+    display: flex;
+    padding-top: 2rem;
+    gap: 3rem;
+    list-style-type: none;
+    color: #1B2432;
+    font-size: 30px;
+}
