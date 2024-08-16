@@ -9,8 +9,8 @@
 
 .navbar .logo{
     width: 350px;
-    height: 100px;
-    padding-right: 60px;
+    height: 110px;
+    padding-right: 10px;
     padding-top: 20px
 }
 
@@ -34,7 +34,7 @@
     background-color: transparent;
     font-size: 25px;
     color: #20293d;
-    border: 1px solid tomato;
+    border: 2px solid #23CE6B;
     border-radius: 50px;
     padding: 10px 30px;
     padding-bottom: 15px;
@@ -44,12 +44,12 @@
 }
 
 .navbar button:hover{
-    background-color: tomato;
+    background-color: #23CE6B;
 
 }
 
 .navbar .active{
-    border-bottom: 3px solid tomato; 
+    border-bottom: 3px solid #23CE6B; 
 }
 
 .navbar li{
@@ -65,7 +65,7 @@
     position: absolute;
     min-width: 10px;
     min-height: 10px;
-    background-color: tomato;
+    background-color: #23CE6B;
     border-radius: 5px;
     top: -2px;
     right: -8px;
