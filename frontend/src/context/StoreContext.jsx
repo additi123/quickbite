@@ -9,18 +9,10 @@ import { food_list } from "../assets/assets";
         food_list
     }
 
-    
-
     return (
         <StoreContext.Provider value={contextValue}>
-            {props.children}
-
-             
+            {props.children}      
         </StoreContext.Provider>
-    )
-
-
-     
- }
-
+    )   
+}
  export default StoreContextProvider;
